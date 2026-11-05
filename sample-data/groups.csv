@@ -1,0 +1,7 @@
+SamAccountName,DistinguishedName,Sid,MemberOf
+Domain Admins,"CN=Domain Admins,CN=Users,DC=example,DC=com",S-1-5-21-1000000000-2000000000-3000000000-512,
+HelpdeskAdmins,"CN=HelpdeskAdmins,OU=Groups,DC=example,DC=com",S-1-5-21-1000000000-2000000000-3000000000-2103,"CN=Domain Admins,CN=Users,DC=example,DC=com"
+IT-Operations,"CN=IT-Operations,OU=Groups,DC=example,DC=com",S-1-5-21-1000000000-2000000000-3000000000-2104,"CN=HelpdeskAdmins,OU=Groups,DC=example,DC=com"
+Finance-Reports,"CN=Finance-Reports,OU=Groups,DC=example,DC=com",S-1-5-21-1000000000-2000000000-3000000000-2201,
+General-Staff,"CN=General-Staff,OU=Groups,DC=example,DC=com",S-1-5-21-1000000000-2000000000-3000000000-2202,
+Legacy-App-Users,"CN=Legacy-App-Users,OU=Groups,DC=example,DC=com",S-1-5-21-1000000000-2000000000-3000000000-2203,

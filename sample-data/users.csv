@@ -1,0 +1,12 @@
+SamAccountName,DistinguishedName,Enabled,WhenCreated,LastLogonDate,PasswordLastSet,AccountExpirationDate,PasswordNeverExpires,PasswordNotRequired,DoesNotRequirePreAuth,TrustedForDelegation,ServicePrincipalName,MemberOf
+alice.admin,"CN=Alice Admin,OU=People,DC=example,DC=com",True,2024-01-15T00:00:00Z,2026-07-01T08:00:00Z,2026-01-10T00:00:00Z,,False,False,False,False,,"CN=IT-Operations,OU=Groups,DC=example,DC=com"
+bob.disabled,"CN=Bob Disabled,OU=People,DC=example,DC=com",False,2023-01-01T00:00:00Z,2026-08-03T00:00:00Z,2024-10-10T00:00:00Z,,False,False,False,False,,"CN=Domain Admins,CN=Users,DC=example,DC=com"
+svc.legacy,"CN=Legacy Service,OU=ServiceAccounts,DC=example,DC=com",True,2021-01-01T00:00:00Z,2026-11-03T00:00:00Z,2021-01-01T00:00:00Z,,True,False,False,True,HTTP/legacy.example.com,"CN=Legacy-App-Users,OU=Groups,DC=example,DC=com"
+charlie.user,"CN=Charlie User,OU=People,DC=example,DC=com",True,2023-05-01T00:00:00Z,2026-02-01T12:00:00Z,2026-03-01T00:00:00Z,,False,False,False,False,,"CN=General-Staff,OU=Groups,DC=example,DC=com"
+dana.expired,"CN=Dana Expired,OU=People,DC=example,DC=com",True,2023-05-01T00:00:00Z,2026-10-30T00:00:00Z,2026-07-01T00:00:00Z,2026-10-01T00:00:00Z,False,False,False,False,,"CN=Finance-Reports,OU=Groups,DC=example,DC=com"
+eve.preauth,"CN=Eve Preauth,OU=People,DC=example,DC=com",True,2025-01-01T00:00:00Z,2026-11-01T00:00:00Z,2026-09-01T00:00:00Z,,False,False,True,False,,"CN=General-Staff,OU=Groups,DC=example,DC=com"
+frank.nopass,"CN=Frank NoPass,OU=People,DC=example,DC=com",True,2025-01-01T00:00:00Z,2026-11-01T00:00:00Z,2026-09-01T00:00:00Z,,False,True,False,False,,"CN=General-Staff,OU=Groups,DC=example,DC=com"
+grace.new,"CN=Grace New,OU=People,DC=example,DC=com",True,2026-11-01T00:00:00Z,,2026-11-01T00:00:00Z,,False,False,False,False,,"CN=General-Staff,OU=Groups,DC=example,DC=com"
+henry.disabled,"CN=Henry Disabled,OU=People,DC=example,DC=com",False,2025-01-01T00:00:00Z,2026-08-01T00:00:00Z,2026-07-01T00:00:00Z,,False,False,False,False,,"CN=Finance-Reports,OU=Groups,DC=example,DC=com"
+ivan.active,"CN=Ivan Active,OU=People,DC=example,DC=com",True,2024-01-01T00:00:00Z,2026-11-04T00:00:00Z,2026-10-01T00:00:00Z,,False,False,False,False,,"CN=General-Staff,OU=Groups,DC=example,DC=com"
+jane.never,"CN=Jane Never,OU=People,DC=example,DC=com",True,2025-01-01T00:00:00Z,,2025-01-01T00:00:00Z,,False,False,False,False,,"CN=General-Staff,OU=Groups,DC=example,DC=com"

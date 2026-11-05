@@ -1,0 +1,24 @@
+{
+  "InactiveDays": 90,
+  "NeverLoggedOnDays": 30,
+  "PrivilegedGroupNames": [
+    "Domain Admins",
+    "Enterprise Admins",
+    "Schema Admins",
+    "Administrators",
+    "Account Operators",
+    "Server Operators",
+    "Backup Operators",
+    "Print Operators"
+  ],
+  "PrivilegedGroupSidSuffixes": [
+    "-512",
+    "-518",
+    "-519",
+    "S-1-5-32-544",
+    "S-1-5-32-548",
+    "S-1-5-32-549",
+    "S-1-5-32-550",
+    "S-1-5-32-551"
+  ]
+}

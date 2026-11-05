@@ -1,0 +1,6 @@
+# Live exports may contain employee identifiers. NEVER commit real directory data.
+output/*
+!output/.gitkeep
+*.log
+.DS_Store
+.vscode/
