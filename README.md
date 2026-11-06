@@ -1,5 +1,12 @@
 # AD/LDAP Exception & Risk Analyzer
 
+> **IAM Automation Toolkit · Project 1/5** | Read-only PowerShell evaluation MVP · Synthetic-first design
+>
+> [**Portfolio directory**](https://github.com/norones-rgb/ad-ldap-exception-risk-analyzer/blob/main/IAM-AUTOMATION-PORTFOLIO.md) · [**Run the demo**](DEMO.md) · [**Sample HTML preview**](docs/fixture-preview.html) · [**Windows/Linux CI**](https://github.com/norones-rgb/ad-ldap-exception-risk-analyzer/actions/workflows/ci.yml)
+>
+> [![Pester CI](https://github.com/norones-rgb/ad-ldap-exception-risk-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/norones-rgb/ad-ldap-exception-risk-analyzer/actions/workflows/ci.yml) · PowerShell 7.2+ · CSV / JSON / offline HTML output
+
+
 A **read-only PowerShell IAM portfolio and consulting demo** that inventories Active Directory users and nested groups, highlights common identity risks, and exports review-ready **CSV, JSON, and offline HTML** evidence.
 
 **MVP v0.1** | PowerShell 7.2+ | No third-party runtime dependencies in CSV mode | Windows + RSAT ActiveDirectory module for AD mode
