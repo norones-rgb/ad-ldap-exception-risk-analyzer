@@ -199,7 +199,7 @@ function Get-UserGroupClosure {
     param(
         [Parameter(Mandatory)][object]$User,
         [Parameter(Mandatory)][hashtable]$GroupByDn,
-        [Parameter(Mandatory)][System.Collections.Generic.HashSet[string]]$UnresolvedReferences
+        [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.HashSet[string]]$UnresolvedReferences
     )
     $queue = [System.Collections.Generic.Queue[string]]::new()
     foreach ($dn in @($User.MemberOf)) {
@@ -245,7 +245,7 @@ function Get-AdRiskFindings {
         [Parameter(Mandatory)][object]$Snapshot,
         [Parameter(Mandatory)][object]$Config,
         [Parameter(Mandatory)][datetimeoffset]$ReferenceDateUtc,
-        [Parameter(Mandatory)][System.Collections.Generic.HashSet[string]]$UnresolvedReferences
+        [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.HashSet[string]]$UnresolvedReferences
     )
     $asOf = $ReferenceDateUtc.ToUniversalTime()
     $inactiveCutoff = $asOf.AddDays(-[int]$Config.InactiveDays)
